@@ -40,7 +40,7 @@ nav>ul {
     display: flex;
     align-items: center;
 }
-
+ 
 nav li {
     list-style: none;
     margin-right: 50px;
@@ -53,10 +53,32 @@ nav a {
     color: #474747;
 }
 
+          /* Header related style */
+
+
 .header_cls{
     background-color: #FFF8F3;
 }
-
+     
+         /* Banner Related style */
 .banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+   /* height: 500px; */
+   width: 500px;
+}
+
+.banner-greeting{
+
+}
+.banner-title{
+    
+}
+
+.banner-content{
     
 }
