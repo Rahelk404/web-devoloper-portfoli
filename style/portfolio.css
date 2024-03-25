@@ -36,7 +36,7 @@ nav {
 
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 65px;
 }
@@ -196,7 +196,7 @@ main section {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
-    margin-bottom:  10px;
+    margin-bottom: 10px;
 
 }
 
@@ -217,14 +217,37 @@ main section {
 
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px 10px;
 
 }
 
-footer{
+footer {
     display: flex;
-    background:#FFF8F3;
+    gap: 100px;
+    background: #FFF8F3;
     margin-top: 110px;
     padding: 130px 250px;
+}
+
+.footer-item {
+    width: 50%;
+}
+
+.social-img a{
+    margin-right: 24px;
+    height: 24px;
+    width: 24px;
+}
+
+.contact,input[type="text"], .contact input[type="email"], textarea{
+display: block;
+margin-bottom: 25px;
+color: #757575;
+padding: 18px 35px;
+border-radius: 5px;
+/* background: #FFF; */
+border: 0;
+width: 100%;
+font-size: 15px;
 }
